@@ -4,7 +4,7 @@ const path = require('path');
 // MongoDB
 const { MongoClient } = require('mongodb');
 
-const url = "mongodb://localhost:27017/mydb";
+const uri = "mongodb://localhost:27017/mydb";
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
