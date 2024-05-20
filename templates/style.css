@@ -1,0 +1,133 @@
+.title {
+    text-align: left 10px;
+    font-family: "Ubuntu", sans-serif;;
+    font-size: 30px;
+    width: 450px;
+
+    color: black;
+    margin: 0px;
+    
+    float:  right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left:0px ;
+
+}
+.left {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 350px);
+}
+.head {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the header is above other content */
+    background-color: white;
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: #000 solid 1px;
+}
+
+#title_img {
+    float: left;
+    width: 66px;
+}
+.search {
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* margin-left: 600px; */
+    float: right;
+    width: 250px;
+}
+
+.body {
+    display: flex;
+    margin-left: 50px; /* Make space for the sidebar */
+    width: calc(100% - 220px); /* Adjust width accordingly */
+}
+.intro {
+    background-color:#f4f4f4;
+    padding-left: 10px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.side-bar {
+    position: fixed;
+    width: 250px;
+    height: 100vh; 
+    margin-top: 50px;
+    border-right: 1px solid #000; 
+
+}
+
+
+.category-container {
+    margin-left: 0px;
+    padding-top: 50px;
+    margin-top: 10px;
+    font-family: "Ubuntu";
+    text-align: left;
+}
+.category {
+    margin-left: 20px;
+}
+.subcategory {
+    margin-left: 30px;
+}
+
+.article-container {
+    width: calc(100% - 220px);
+    height: auto;
+    margin-top: 30px;
+    margin-left: 275px;
+    display: grid;
+    gap: 10px; /* Space between articles */
+    padding: 20px;
+
+}
+.article {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* postin.html */
+.article-content{
+    height: 100px;
+    margin-top: 200px;
+}
+.posting-box {
+
+    width: calc(100% - 400px);
+    height: 100vh; 
+    margin-top: 100px;
+    border-right: 1px solid #000; 
+}
+#posting-content {
+    width: calc(100% - 100px);;
+    height: calc(100% - 50px);
+    margin-left: 100px;
+}
+
+.content-settings {
+    margin-top: 100px;
+    border-left: #000 solid 1px;
+    margin-left: 50px;
+}
+.category-setting {
+    margin-left: 20px;
+}
+#category-setting {
+
+}
